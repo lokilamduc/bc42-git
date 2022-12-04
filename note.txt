@@ -17,3 +17,7 @@
 
 - git push: đẩy tất cả commit lên trên remote repository
 
+- git checkout: chuyển sang 1 branch khác
+ + git checkout branch-name: chuyển branch
+ + git checkout -b branch-name: tạo branch
+
