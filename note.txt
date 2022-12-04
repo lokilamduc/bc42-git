@@ -21,3 +21,15 @@
  + git checkout branch-name: chuyển branch
  + git checkout -b branch-name: tạo branch
 
+- git pull: kéo tất cả commit mới nhất của 1 branch từ remote repository về local repository
+
+- git merge: hợp nhât những commit ở 1 branch vào một branch khác (vd: branch hiện tại là feature-a, ta chạy lệnh git merge master=> hợp nhất những commit của branch master vào branch feature-a)
+
+* quy trình xử lý nếu bị conflict (feature-a tọa pull request vào master)
+B1: check out về branch master
+B2: chạy lệnh git pull để cập nhật nhugn74 commit mới nhất cho master ở local
+B3: check out về branch feature-a
+B4: chạy git merge master, để hợp nhất những commit của master vào feature-a 
+B5: resolve conflict (thực hiện ở vscode)
+B6: git add, git commit, git push 
+B7: quay lại github để tạo pull request
