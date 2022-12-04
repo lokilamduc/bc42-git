@@ -1,0 +1,7 @@
+- git init: khởi tạo git cho một project (chỉ cần dùng 1 lần duy nhất)
+
+- git add: sắp xếp cái file đã bị thay đổi, thêm mới, hoặc xóa so với lần commit trước đó, để chuẩn bị cho lần commit tiếp theo
+- git add filename1 filename2: thêm một hoặc nhiều file bị thay đổi 
+-git add . : thêm toàn bộ tất cả file bị thay đổi 
+- git commit: dùng để xác nhận sự thay đổi
+ + git commit -m "massage commit"
